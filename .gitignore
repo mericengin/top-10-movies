@@ -1,0 +1,23 @@
+# Ignore all database files (e.g., SQLite)
+*.db
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore IDE settings folders
+.vscode/
+.idea/
+
+# Ignore environment variables file (API keys, etc.)
+.env
+
+# Optional: Ignore log files
+*.log
+
+# Optional: Ignore pytest cache
+.pytest_cache/
